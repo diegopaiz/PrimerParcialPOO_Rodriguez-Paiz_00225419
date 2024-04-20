@@ -15,7 +15,7 @@ public class Cliente {
         this.Tipo = Tipo;
         this.Precio = Precio;
         this.Descripcion = Descripcion;
-        this.Modelo = sexo;
+        this.Modelo = Modelo;
     }
 
     public Cliente(Cliente cliente) {
@@ -51,11 +51,11 @@ public class Cliente {
     }
 
     public String getDescripcion() {
-        return descripcion;
+        return Descripcion;
     }
 
     public void setDescripcion(String Descripcion) {
-        this.descripcion = descripcion;
+        this.descripcion = Descripcion;
     }
 
     public char getModelo() {
